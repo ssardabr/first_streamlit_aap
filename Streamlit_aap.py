@@ -1,6 +1,5 @@
 import streamlit
 
-
-import streamlit
-streamlit.monkey('monkey eats banana')
+streamlit.title('My parents are now healthy')
+streamlit.text('Monkey eats banana')
 
