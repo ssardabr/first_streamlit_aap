@@ -1,6 +1,6 @@
 import streamlit
 
 
-
-streamlit.name('monkey eats banana')
+import streamlit
+streamlit.monkey('monkey eats banana')
 
