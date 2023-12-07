@@ -2,5 +2,5 @@ import streamlit
 
 
 
-streamlit.name('my name is sudip sardar')
+streamlit.name('monkey eats banana')
 
