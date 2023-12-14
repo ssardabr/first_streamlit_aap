@@ -1,3 +1,6 @@
+import streamlit
+
+
 streamlit.header("Fruityvice Fruit Advice!")
 import requests
 
