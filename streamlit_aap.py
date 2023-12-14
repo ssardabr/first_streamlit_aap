@@ -1,4 +1,4 @@
-streamlit.header("Fruityvice Fruit Advice!")
+#streamlit.header("Fruityvice Fruit Advice!")
 
 import requests
 
