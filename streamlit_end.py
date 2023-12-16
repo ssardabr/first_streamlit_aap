@@ -28,7 +28,7 @@ fruityvice_response = requests.get("https://fruityvice.com/api/fruit/watermelon"
 streamlit.text(fruityvice_response)
 
 
-streamlit.header("Fruityvice Fruit Advice!")
+'''streamlit.header("Fruityvice Fruit Advice!")
 
 #import requests
 #fruityvice_response = requests.get("https://fruityvice.com/api/fruit/watermelon")
@@ -89,7 +89,7 @@ try:
 except URLError as e:
     streamlit.error()
 
-'''def get_fruityvice_data(this_fruit_choice):
+def get_fruityvice_data(this_fruit_choice):
     fruityvice_response = requests.get("https://fruityvice.com/api/fruit/" + this_fruit_choice)
     fruityvice_normalized = pandas.json_normalize(fruityvice_response.json())
     return fruityvice_normalized
